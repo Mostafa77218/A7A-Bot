@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 try {
 let vn = './media/menu.mp3'
 let pp = imagen4
-let img = await(await fetch('https://telegra.ph/file/5aa73a371ea32c99d3b4e.jpg')).buffer()
+let img = await(await fetch('https://telegra.ph/file/b1dbdd6b5873bb4950cc2.jpg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'ar'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
